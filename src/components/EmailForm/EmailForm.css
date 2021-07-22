@@ -1,0 +1,29 @@
+input{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 0 #2f2f2f;
+    outline: none;
+    padding: 0 0 0 5px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 0 #2f2f2f;
+    outline: none;
+    padding: 5px
+}
+form{
+    max-width: 350px;
+    margin: 10px auto;
+    padding: 15px;
+}
+.errorMsg{
+    color: #fe0006;
+    font-weight: bold;
+}
