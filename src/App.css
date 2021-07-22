@@ -16,6 +16,6 @@ h1{
 }
 @media screen and (min-height: 600px){
     .pages{
-        min-height: 600px;
+        min-height: calc(92vh - 100px);
     }
 }
