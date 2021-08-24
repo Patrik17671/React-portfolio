@@ -14,12 +14,19 @@ function App() {
           <NavBar/>
           <div className="pages">
               <Switch>
-                  <Route exact path="/" component={About}/>
-                  <Route  path="/projects" component={Projects}/>
-                  <Route  path="/contactMe" component={ContactMe}/>
+                  <Route exact path="/" >
+                      <About />
+                  </Route>
+                  <Route exact path="/projects" >
+                      <Projects />
+                  </Route>
+                  <Route exact path="/contactMe">
+                      <ContactMe />
+                  </Route>
               </Switch>
           </div>
           <Footer/>
+
       </Router>
     </>
   );
