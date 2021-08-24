@@ -12,25 +12,28 @@ const Slider = () => {
 
     return (
         <div >
+            <p><strong>Niečo z môjho skillsetu.</strong></p>
             <Carousel >
                 <Card
                     tech="Java"
                     icon={java}
-                    level="S Javou som začínal ,ale ovládam len základy."/>
-
+                    level="S Javou som začínal ,ale ovládam len základy. Neskôr by som sa k nej rád vrátil."
+                />
                 <Card
                     tech="HTML a CSS"
                     icon={html}
-                    level="Pokročilý"/>
-
+                    level="Pokročilý"
+                />
                 <Card
                     tech="JavaScript"
                     icon={javascript}
-                    level="Mierne pokročilý."/>
+                    level="Mierne pokročilý."
+                />
                 <Card
                     tech="React"
                     icon={reactSvg}
-                    level="Základy ,ale akurát sa ho učím."/>
+                    level="Základy ,ale akurát sa ho učím."
+                />
             </Carousel>
         </div>
     );
