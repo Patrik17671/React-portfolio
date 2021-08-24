@@ -1,9 +1,7 @@
 import React from 'react';
-import screen from "../../Images/screen.jpg";
 import ProjectSec from "../ProjectsSection/ProjectSec";
 //Import images
 import fake from "../../Images/fakeportfolio.jpg";
-import music from "../../Images/musicapp.jpg";
 import gamesApp from "../../Images/reactApp.jpg";
 import todo from "../../Images/todo.jpg";
 import portfolio from "../../Images/screen.jpg";
