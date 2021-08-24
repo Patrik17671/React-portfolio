@@ -1,12 +1,21 @@
 import React from 'react';
 import styled from "styled-components";
+import {motion} from "framer-motion";
+import {fadeIn,popIn} from "../../animations";
 
 
-const ProjectSec = ({projectName,projectImg,projectDescription,githubLink,sideLink,strong}) => {
+const ProjectSec = ({projectName,projectImg,projectDescription,githubLink,sideLink}) => {
     return (
-        <StyledDiv>
-            <h2>{projectName}</h2>
-            <img src={projectImg} alt="projectName" width="100%"/>
+        <StyledDiv variants={fadeIn} initial="hidden" animate="show">
+            <h2 >{projectName}</h2>
+            <motion.img
+                src={projectImg}
+                alt="projectName"
+                width="100%"
+                variants={popIn}
+                initial="hidden"
+                animate="show"
+            />
             <p>{projectDescription}</p>
             <StyledLinks>
                 <a href={githubLink} rel="noreferrer noopener" target="_blank">Github kód</a>
@@ -16,7 +25,7 @@ const ProjectSec = ({projectName,projectImg,projectDescription,githubLink,sideLi
     );
 };
 
-const StyledDiv = styled.div`
+const StyledDiv = styled(motion.div)`
   max-width: 30rem;
   margin: 3rem auto;
   padding: 0 1.5rem;
@@ -30,7 +39,7 @@ const StyledDiv = styled.div`
     box-shadow: 0 0 10px rgba(47,47,47,0.48);
   }
 `;
-const StyledLinks = styled.div`
+const StyledLinks = styled(motion.div)`
   width: 100%;
   display: inline-flex;
   justify-content: space-between;

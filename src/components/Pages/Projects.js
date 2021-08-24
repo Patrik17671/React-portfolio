@@ -13,7 +13,7 @@ const Projects = () => {
             <ProjectSec
                 projectName="Moje prvé portfolio."
                 projectImg={portfolio}
-                projectDescription="Moje prvé portfólio použité základné webtechnologie HTML a CSS a kusók JavaScriptu."
+                projectDescription="Moje prvé portfólio použité základné webtechnologie HTML, CSS a trošku JavaScriptu."
                 sideLink="https://spilus.netlify.app/"
             />
             <ProjectSec
@@ -26,17 +26,17 @@ const Projects = () => {
             <ProjectSec
                 projectName="Fake portfolio."
                 projectImg={fake}
-                projectDescription="Toto nieje úplne moja práca je to appka robená v kurze.
-                                    Naučil som sa tu používať react knižnice ako sú styled-components a framer-motion na efekty."
+                projectDescription="Toto nieje úplne moja práca - je to appka robená v kurze.
+                                    Naučil som sa tu používať react knižnice, ako sú styled-components a framer-motion na efekty."
                 githubLink="https://github.com/Patrik17671/react_fake_portfolio"
                 sideLink="https://spilus-fake-portfolio.netlify.app/"
             />
             <ProjectSec
                 projectName="Appka na vyhľadávanie hier."
                 projectImg={gamesApp}
-                projectDescription="Ďalšia appka robená v kurze , tentokár som osvojil prácu s API
-                                    pomáhal som si knižnicou Axios a na správu stavov som použil Redux s ktorým by som ale
-                                    ešte nevedel pracovať samostatne, samozrejme na tom budem ešte pracovať."
+                projectDescription="Ďalšia appka robená v kurze. Tentokrát som si osvojil prácu s API,
+                                    pomáhal som si knižnicou Axios a na správu stavov som použil Redux, s ktorým by som ale
+                                    ešte nevedel pracovať samostatne. Samozrejme na tom budem ešte pracovať."
                 githubLink="https://github.com/Patrik17671/Games_list_react"
                 sideLink="https://spilus-games-list-app.netlify.app/"
             />
