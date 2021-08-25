@@ -9,7 +9,7 @@ const About = () => {
             <h1>O mne</h1>
             <img src={ja} alt="nah" height="200px" style={{borderRadius: "50%"}}/>
             <p>Vitaj na mojom React portfoliu, kde som si skúšal základné princípy reaktu.
-            Bol to jeden z prých projektov, tak ak si z HR oddelenia, kde som posielal žiadosť,
+            Bol to jeden z prvých projektov, tak ak si z HR oddelenia, kde som posielal žiadosť,
             nedaj sa odradiť, chystám sa to vylepšiť =).</p>
 
             <Slider />

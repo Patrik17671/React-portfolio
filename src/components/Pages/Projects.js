@@ -13,7 +13,7 @@ const Projects = () => {
             <ProjectSec
                 projectName="Moje prvé portfolio."
                 projectImg={portfolio}
-                projectDescription="Moje prvé portfólio použité základné webtechnologie HTML, CSS a trošku JavaScriptu."
+                projectDescription="Moje prvé portfólio kde som použil základné webtechnologie HTML, CSS a trošku JavaScriptu."
                 sideLink="https://spilus.netlify.app/"
             />
             <ProjectSec
@@ -26,7 +26,7 @@ const Projects = () => {
             <ProjectSec
                 projectName="Fake portfolio."
                 projectImg={fake}
-                projectDescription="Toto nieje úplne moja práca - je to appka robená v kurze.
+                projectDescription="Toto nie je úplne moja práca - je to appka robená v kurze.
                                     Naučil som sa tu používať react knižnice, ako sú styled-components a framer-motion na efekty."
                 githubLink="https://github.com/Patrik17671/react_fake_portfolio"
                 sideLink="https://spilus-fake-portfolio.netlify.app/"
